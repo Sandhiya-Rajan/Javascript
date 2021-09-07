@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <script>
+        var example={
+            'name':'sandhi',
+            'age':'18'
+        }
+        //test the type of this it will be a string (we cant access elements)
+        var example_json=JSON.stringify(example);
+        console.log('THE ACTUAL FORMAT : ' +example_json);
+
+        //now it is converted as a object by using PARSE method
+        var example_obj=JSON.parse(example_json);
+        console.log(example_obj);
+    </script>
+    </body>
+</html>
